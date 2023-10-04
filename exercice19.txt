@@ -1,0 +1,23 @@
+algorithme impot
+variable
+	
+	m:chaine de caractere
+debut 
+	ecrire ("entrer le mois : ")
+	lire(m)
+	cas m vaut
+		"janvier":ecrire("31")
+		"fevrier":ecrire("28")
+		"mars":ecrire("31")
+		"avril":ecrire("30")
+		"mai":ecrire("31")
+		"juin":ecrire("30")
+		"juillet":ecrire("31")
+		"aout":ecrire("31")
+		"septembre":ecrire("30")
+		"octobre":ecrire("31")
+		"novembre":ecrire("30")
+		"decembre":ecrire("31")
+		sinon:ecrire("ce mois n'existe pas")
+	fin cas
+fin
