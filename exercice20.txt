@@ -1,0 +1,19 @@
+algorithme impot
+variable
+	n1,n2:entier
+	O:caractere
+debut 
+	ecrire ("entrer le premiere nombre : ")
+	lire(n1)
+	ecrire ("entrer le deuxieme nombre : ")
+	lire(n2)
+	ecrire ("entrer l'operateur : ")
+	lire(o)
+	cas o vaut
+		"+":ecrire(n1 ,"+", n2 ," = ", n1+n2)
+		"*":ecrire(n1 ,"*", n2 ," = ", n1*n2)
+		"/":ecrire(n1 ,"/", n2 ," = ", n1/n2)
+		"-":ecrire(n1 ,"-", n2 ," = ", n1-n2)
+		sinon:ecrire("l'operateur n'existe pas")
+	fin cas
+fin
