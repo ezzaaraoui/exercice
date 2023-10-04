@@ -1,0 +1,21 @@
+Algorithme diviseurs
+
+Variable 
+	i,n:entier
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n)
+	
+	tantque (n<=0) faire
+		ecrire("Donner un nombre positif non null : ")
+		lire(n)
+	fin tantque
+
+	pour i de 1 a n faire
+		si ( n mod i = 0) alors 
+			ecrire(i)
+		fin si
+	fin pour
+fin

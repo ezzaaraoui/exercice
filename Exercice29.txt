@@ -1,0 +1,18 @@
+ Algorithme population
+
+Variable 
+	pa,pm,s,c:entier
+
+Debut
+	pm<=1000000
+	pa<=500000
+	c<=0
+	tant que(pm>pa) faire
+		pm<=pm+50000
+		pa<=pa+(pa*0.08)
+		c<c+1
+	fin tant que
+
+	ecrire("le nombre d'anne la population de la ville agadir depassera celle de la ville marrakech est  : ",c)
+
+fin

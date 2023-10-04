@@ -1,0 +1,24 @@
+Algorithme Factorielle
+
+Variable
+	n,i,f:entier
+
+Debut
+	ecrire("Donner un nombre : ")
+	lire(n)
+
+	tant que n<=0 faire
+	ecrire("Donner un nombre positif non null: ")
+	lire(n)
+	fin tant que
+
+	f<=1
+	pour i <=1 a n faire
+
+		f=f*i
+
+	fin pour
+
+	ecrire("la factorielle de ",n," est : ",n,"! = ",f)
+fin
+		

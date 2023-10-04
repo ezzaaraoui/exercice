@@ -1,0 +1,14 @@
+Algorithme nobre_d
+
+Variable 
+	i,n:entier
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n)
+
+	pour i<=n+1 a n+10 faire 
+		ecrire(i)
+	fin pour
+fin

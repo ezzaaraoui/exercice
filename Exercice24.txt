@@ -1,0 +1,19 @@
+Algorithme nsomme
+
+Variable 
+	i,n,s:entier
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n)
+
+	s<=0
+	pour i<=1 a n faire 
+
+		s=s+(10^n)
+
+	fin pour
+
+	ecrire("La somme est : ",s)
+fin

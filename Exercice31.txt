@@ -1,0 +1,24 @@
+Algorithme suite
+
+Variable 
+	i,n,ui,uu,un:entier
+
+Debut
+
+	ecrire("taper un entier n : ")
+	lire(n)
+	
+	ui<=0
+	uu<=1
+	
+	pour i<=0 a n faire
+
+		un<=uu +ui
+		ui<=un
+		uu<=ui
+
+	fin pour
+
+	ecrire("le resultat est : ",un)
+
+fin

@@ -1,0 +1,21 @@
+Algorithme verse
+
+Variable 
+	i,a,s:entier
+
+Debut
+
+	ecrire("SVP Donner l'age : ")
+	lire(a)
+	
+	s<=0
+	
+	pour i<=1 a a faire
+
+		s<=s+500+(a*3)
+
+	fin pour
+
+	ecrire("le resultat est : ",s)
+
+fin

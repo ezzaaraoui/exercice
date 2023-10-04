@@ -1,0 +1,24 @@
+Algorithme nobre_d
+
+Variable 
+	co,c,n:entier
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n)
+	
+	c<=n+1
+	tantque(c<=n+10)
+		c<=c+1
+		ecrire(c)
+	fin tantque
+	
+	co<=n+1
+	repeter
+		co=co+1
+		ecrire(co)
+
+	jusqu'a(co=n+10)
+	
+fin
