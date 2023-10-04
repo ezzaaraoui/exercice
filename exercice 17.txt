@@ -1,0 +1,15 @@
+algorithme impot
+variable
+	a:entier
+	s:chaine de caractere
+debut 
+	ecrire ("entrer l'age de l'habitant svp : ")
+	lire(a)
+	ecrire ("entrer le sexe de l'habitant svp : ")
+	lire(s)
+	si( s="Homme" et a>=20 ) ou (s="femme" et a>=18 et a<=35) alors
+		ecrire("l'habitant est imposable")
+	sinon
+		ecrire("l'habitant est non imposable")
+	fin si
+fin

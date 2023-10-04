@@ -1,0 +1,16 @@
+algorithme impot
+variable
+	pht,pttc:reel
+	c:caractere
+debut 
+	ecrire ("entrer le prix hors taxe de produit : ")
+	lire(pht)
+	ecrire ("entrer la categorie de produit : ")
+	lire(c)
+	cas c vaut
+		"A":ecrire("le prix ttc est : ", pht+pht*0.07)
+		"B":ecrire("le prix ttc est : ", pht+pht*0.2)
+		"C":ecrire("le prix ttc est : ", pht+pht*0.25)
+		sinon:ecrire("ce categorie n'existe pas")
+	fin cas
+fin
