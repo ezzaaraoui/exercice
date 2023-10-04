@@ -1,0 +1,30 @@
+Algorithme Mention
+
+Variable 
+	a,b,c,de:entier
+	x,x1,x2:reel
+	
+
+Debut
+
+	ecrire("Donner la valeur de a : ")
+	lire(a)
+	ecrire("Donner la valeur de b : ")
+	lire(b)
+	ecrire("Donner la valeur de c : ")
+	lire(c)
+	de<=b^2-4*a*c
+	si( de>0)alors
+		x1=(-b-d^(1/2))/2*a
+		x2=(-b+d^(1/2))/2*a
+		ecrire("les solution est : x1 = ",x1," x2 = ",x2)
+	sinon
+		si(  de=0)alors
+			x=-b/2*a
+			ecrire("la solution est : x = ",x)
+		sinon
+			ecrire("pas de solution")
+		fin si
+	fin si
+
+fin

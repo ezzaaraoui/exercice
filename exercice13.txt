@@ -1,0 +1,22 @@
+Algorithme photocopie
+
+Variable 
+	nph:entier
+	p:reel
+
+Debut
+
+	ecrire("Donner un nombre de photocopie : ")
+	lire(nph)
+
+	si nph<= 10 alors
+		p<=nph*0.30
+	sinon
+		si(nph<=30 et nph>10)
+			p<=10*0.30+(nph-10)*0.25
+		sinon
+			p<=10*0.30+20*0.25+(nph-30)*0.20
+		fin si
+	fin si
+	ecrire("le prix est :",p)
+fin

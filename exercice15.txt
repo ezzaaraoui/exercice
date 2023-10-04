@@ -1,0 +1,30 @@
+Algorithme Mention
+
+Variable 
+	n1,n2,n3,m:reel
+	
+
+Debut
+
+	ecrire("Donner les trois notes : ")
+	lire(n1,n2,n3)
+	m<=(n1+n2+n3)/3
+	si( m>=16)alors
+		ecrire("mention est Tres bien")
+	sinon
+		si(  m>=14 et m<16 )alors
+			ecrire("mention est Bien")
+		sinon
+			si  (m>=12 et m<14) alors
+				ecrire("mention est Assez bien")
+			sinon
+				si  (m>=10 et m<12) alors
+					ecrire("mention est Passable")
+				sinon
+					ecrire("mention est Insuffisant")
+				fin si
+			fin si 
+		fin si
+	fin si
+
+fin

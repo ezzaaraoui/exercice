@@ -1,0 +1,23 @@
+Algorithme echange
+
+Variable 
+	n1,n2,c,e:entier
+	
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n1)
+	ecrire("Donner un nombre : ")
+	lire(n2)
+	si n1*n2 > 0 alors
+		c<=n1
+		n1<=n2
+		n2<=c
+	sinon
+		c<=n1+n2
+		e<=n1*n2
+		n1<=c
+		n2<=e
+
+fin

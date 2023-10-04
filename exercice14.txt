@@ -1,0 +1,27 @@
+Algorithme age
+
+Variable 
+	a:entier
+	
+
+Debut
+
+	ecrire("Donner l'age : ")
+	lire(a)
+
+	si( a>=6 ou a<=7 )alors
+		ecrire("Poussin")
+	sinon
+		si(  a>=8 ou a<=9 )alors
+			ecrire("Pupille")
+		sinon
+			si  (a>=10 ou a<=11) alors
+				ecrire("Minime")
+			sinon
+				si  (a>=12) alors
+				ecrire("Cadet")
+			fin si 
+		fin si
+	fin si
+
+fin

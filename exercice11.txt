@@ -1,0 +1,20 @@
+Algorithme signe
+
+Variable 
+	n1,n2:entier
+	
+
+Debut
+
+	ecrire("Donner un nombre : ")
+	lire(n1)
+	ecrire("Donner un nombre : ")
+	lire(n2)
+	si n1*n2 > 0 alors
+		ecrire("les deux nombre ont le meme signe")
+	sinon
+		ecrire("les deux nombre ont deux signe differents")
+
+	
+	
+fin
